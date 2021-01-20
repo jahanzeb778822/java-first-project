@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Numbers with input</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/function.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body style="background-image: url(./workbench.jpg);background-size: cover;">
+    <i class="fas fa-dice-d20"></i>
+    <section class="section1">
+        
+    <h1 class=" text-center text-info"> Let's Go</h1>
+    <div class="container">
+        <div class="title text-center">
+            <h1 class="text-info text-center" >Play With Random Numbers !!!</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 border ">
+            <div class="container">
+                <h3 class="text-danger"> Enter Numbers (0 to 9) to WIN GAME</h3>
+                <br>
+                <p> <button class="btn btn-danger" onclick="randomcondition();"> Start</button> 
+                     </p><input type="number" id="guessno" placeholder="Enter">
+                
+            </div>
+        </div>
+        <!-- <div class="col-md-2 border ">
+            <div class="container" id="arrow">
+              
+            </div>
+        </div> -->
+        <div class="col-md-4 border">
+            <div class="container text-center">
+                <h2 id="message"></h2>
+                <h2 id="message1"></h2>
+            </div>
+            <div class="container">
+            <div class="row mt-5 text-center">
+                
+                <div class="col-md-6">
+                   <label for=""><b>Ramdom No :</b>  <label id="showgrandom" id><b> Random no</b> </label></label>
+                </div>
+                <div class="col-md-6">
+                    <label for=""><b>Guess Number : </b> <label id="guessdisplay" id><b>your Guess</b> </label></label>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+       <a href="index.html"> <button id="playagain"  class="btn btn-primary "> Play Again</button> </a>
+    </div>
+</section>
+</body>
+</html>
